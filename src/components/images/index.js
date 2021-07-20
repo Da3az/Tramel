@@ -14,7 +14,7 @@ export default function Images({album}) {
     query  {
         allFile(filter: {
                       extension : {regex: "/(jpg)|(png)|(jpeg)/"},
-                      name: {nin:["background", "background2" , "background3" , "background4"]}        
+                      name: {nin:["background", "background2" , "background3" , "background4","gatsby-icon"]}        
                   }) {
           edges {
             node {
