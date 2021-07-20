@@ -2,7 +2,7 @@
 
 ## Description
 
-A responsive gatsby app built using gatsby , with styled-components.
+A responsive gatsby app built with styled-components.
 Live demo on https://tramelmaster.gatsbyjs.io/
 
 ## Technologies & Tools
