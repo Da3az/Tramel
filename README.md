@@ -28,4 +28,4 @@ $ npm install
 ```
 $ gatsby develop
 ```
-8. App now should be running on ```localhost:8000```
+App now should be running on ```localhost:8000```
