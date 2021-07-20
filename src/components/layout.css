@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Indie+Flower&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Indie Flower', cursive;
+}
+
+h1{
+
+}
+
+@keyframes grow {
+  0%{
+    transform: scale(1)
+  }
+  50%{
+    transform: scale(1.1)
+  }
+  100%{
+    transform: scale(1)
+  }
+}
+
