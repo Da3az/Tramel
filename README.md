@@ -1,5 +1,3 @@
-# MERN Stack Snake game.
-
 <img src="githubImg/app-image.jpg"/>
 
 ## Description
