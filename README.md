@@ -2,7 +2,7 @@
 
 ## Description
 
-A responsive gatsby app built using gatsby , with styled-components
+A responsive gatsby app built using gatsby , with styled-components.
 Live demo on https://tramelmaster.gatsbyjs.io/
 
 ## Technologies & Tools
@@ -26,6 +26,6 @@ $ npm install
 ```
 3. Execute the app:<br/>
 ```
-$ npm run dev
+$ gatsby develop
 ```
 8. App now should be running on ```localhost:8000```
