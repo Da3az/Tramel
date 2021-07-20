@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaFacebook,FaInstagram,FaLinkedin,FaTwitter,FaYoutube } from 'react-icons/fa'
 import { FooterContainer,SocialIcon,SocialIcons,SocialIconLink,SocialLogo,SocialMedia,SocialMediaWrap,WebsiteRights } from './FooterElements'
-
+import { GiCamelHead } from 'react-icons/Gi'
 export default function Footer() {
     return (
         
@@ -9,7 +9,9 @@ export default function Footer() {
             <SocialMedia>
                 <SocialMediaWrap>
                     <SocialLogo to = "/">
-                        <SocialIcon />
+                        <SocialIcon >
+                          <GiCamelHead></GiCamelHead>
+                        </SocialIcon>
                     </SocialLogo>
                     <WebsiteRights> Tramel © {new Date().getFullYear}</WebsiteRights>
                     <SocialIcons>
