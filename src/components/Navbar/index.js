@@ -1,6 +1,5 @@
 import React , { useState,useEffect } from 'react'
 import { FaBars , FaTimes } from "react-icons/fa"
-import { GiCamelHead } from "react-icons/Gi"
 import { IconContext } from "react-icons/lib"
 import { 
     Nav,
@@ -42,9 +41,7 @@ export default function Navbar() {
           <Nav active = {scroll} click = {click}>
             <NavbarContainer>
              <NavLogo to = "/">
-                <NavIcon>
-                    <GiCamelHead></GiCamelHead>
-                </NavIcon>
+                <NavIcon></NavIcon>
              </NavLogo>
              <MobileIcon onClick = {handleClick}>
                  {click ? <FaTimes/> : <FaBars />}

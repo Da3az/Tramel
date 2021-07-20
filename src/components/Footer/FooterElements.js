@@ -1,4 +1,4 @@
-
+import { GiCamelHead } from 'react-icons/gi'
 import {Link} from 'gatsby'
 import styled from "styled-components"
 
@@ -34,7 +34,7 @@ align-items:center;
 margin-bottom:16px;
 `
 
-export const SocialIcon = styled.div`
+export const SocialIcon = styled(GiCamelHead)`
  margin-right: 10px
 `
 

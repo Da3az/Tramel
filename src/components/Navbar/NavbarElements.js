@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import { GiCamelHead } from "react-icons/gi"
 import { Link } from 'gatsby'
 
 export const Nav = styled.nav`
@@ -40,11 +40,9 @@ export const NavLogo = styled(Link)`
  aligh-items:center;
  color:#ff4040;
 `
-export const NavIcon = styled.div`
+export const NavIcon = styled(GiCamelHead)`
  margin:0 0.5rem 0 2rem;
- svg{
-   color:#ff4040 !important;
- }
+ color:#ff4040 !important;
 `
 
 export const MobileIcon = styled.div`
