@@ -4,8 +4,7 @@ import {Hero,HeroTitle,HeroDescription} from './HeroSectionElements.js'
 import Form  from '../Form/index'
 
 export default function HeroSection({home}) {
-    console.log('home is ',home)
-    return (
+     return (
         <Hero home={home} >
             {home ?
             <>  

@@ -27,9 +27,8 @@ img:hover{
 `
 
 export const ImageItem = styled.div`
-${({album}) => {
-    console.log('album is ===>',album)
-    return (!album && 
+${({album}) => (
+    !album && 
     `&:nth-child(5){
         grid-column-end: span 2;
     }

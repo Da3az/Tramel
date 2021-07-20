@@ -24,7 +24,6 @@ export default function Navbar() {
 
         if(window.scrollY >= 150){
             setScroll(true)
-            console.log('scrolled')
         }else{
             setScroll(false)
         }
