@@ -18,7 +18,7 @@ Live demo on https://tramelmaster.gatsbyjs.io/
 ### Steps:
 1. Clone repo on your local machine:
 ```
-git clone git@github.com:Da3az/mern-snake-game.git
+git clone git@github.com:Da3az/Tramel.git
 ```
 2. Install dependencies:
 ```
